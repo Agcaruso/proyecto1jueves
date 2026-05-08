@@ -9,3 +9,10 @@ p {
 body {
     background-color: rgb(240, 250, 250);
 }
+header {
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
