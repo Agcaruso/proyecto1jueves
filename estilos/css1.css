@@ -1,18 +1,70 @@
 h1 {
    color: darkblue;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
     color: darkcyan;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    margin-bottom: 15px;
 }
 body {
     background-color: rgb(240, 250, 250);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
 }
 header {
     text-align: center;
 }
-ul{
+
+img {
+max-width: 100%;
+border-radius: 10px;
+display: block;
+margin: 20px auto;
+}
+
+main {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+     max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+/* NAVBAR COMPLETO */
+nav {
+    background-color:darkcyan ;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* NAV UL */
+nav ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
     padding: 0;
 }
+
+/* LINKS */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: rgb(240, 250, 250);
+    font-size: 20px;
+    background-color: none;
+    transform: translateY(-2px);
+}
+
+
